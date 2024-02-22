@@ -1,0 +1,22 @@
+{
+  "Books": [
+    {
+      "isbn": "978-3-16-148410-0",
+      "title": "The Great Adventure",
+      "author": "John Smith",
+      "pages": 320
+    },
+    {
+      "isbn": "978-1-25-359741-7",
+      "title": "Secrets of the Universe",
+      "author": "Jane Doe",
+      "pages": 256
+    },
+    {
+      "isbn": "978-0-45-897632-4",
+      "title": "The Art of Cooking",
+      "author": "Alice Johnson",
+      "pages": 180
+    }
+  ]
+}
