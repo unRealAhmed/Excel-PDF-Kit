@@ -5,6 +5,7 @@ import { ExcelModule } from './excel/excel.module';
 import { BookModule } from './books/books.module';
 import { ConfigModule, ConfigService } from '@nestjs/config';
 import { MongooseModule } from '@nestjs/mongoose';
+import { PdfModule } from './pdf/pdf.module';
 
 @Module({
   imports: [
@@ -21,6 +22,7 @@ import { MongooseModule } from '@nestjs/mongoose';
     }),
     ExcelModule,
     BookModule,
+    PdfModule,
   ],
   controllers: [AppController],
   providers: [AppService],
